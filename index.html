@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Co</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="logo.png" alt="">
+        </a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#products">products</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="cart-item-1.jpg" alt="">
+                <div class="content">
+                    <h3>Roasted Coffee beans</h3>
+                    <div class="price">₹950.00/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="cart-item-2.jpg" alt="">
+                <div class="content">
+                    <h3>Fresh Coffee Beans</h3>
+                    <div class="price">₹700.00/-</div>
+                </div>
+            </div>
+            <a href="#" class="btn">checkout now</a>
+        </div>
+    </header>
+<section class="home" id="home">
+    <div class="content">
+        <h3>Fresh Coffee in the morning</h3>
+        <p>
+            "Start your day with a warm embrace—savor the rich aroma of morning coffee. 
+            It’s not just a drink; it’s the spark that ignites your day with energy and inspiration."</p>
+        <a href="#" class="btn">get yours now</a>
+    </div>
+</section>
+<section class="about" id="about">
+    <h1 class="heading"> about <span>us</span></h1>
+    <div class="row">
+        <div class="image">
+            <img src="about-img.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>what makes our coffee special</h3>
+            <p>At <span>Coffee co </span>, we believe that coffee is more than just a beverage—it's a ritual, a moment of connection, and a source of inspiration. We are committed to delivering an exceptional coffee experience, starting with the finest, sustainably sourced beans. Our expert roasters meticulously craft each batch to highlight the natural flavors, resulting in a coffee that’s rich, smooth, and deeply aromatic. Whether you’re fueling your morning or savoring a quiet moment, our coffee is designed to elevate your everyday rituals. Join us in celebrating the art of coffee, where every sip tells a story of quality, passion, and tradition.</p>
+            <p>Our coffee stands out for its unparalleled quality and dedication to excellence. We source only the finest beans from sustainable farms, ensuring that every cup is not just a drink, but an experience. Meticulously roasted to bring out the natural flavors, our coffee delivers a rich, smooth taste with a deep aroma that lingers. Whether you’re starting your day or taking a moment to relax, our coffee offers the perfect balance of boldness and smoothness, setting a new standard in every sip.</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+    </div>
+</section>
+<section class="menu" id="menu">
+    <h1 class="heading"> our <span>menu</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="menu-1.jpg" alt="">
+            <h3>Flat White</h3>
+            <div class="price">₹ 160.00 <span>₹ 180.00</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <img src="menu-2.jpg" alt="">
+            <h3>Americano</h3>
+            <div class="price">₹ 145.00 <span>₹ 165.00</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <img src="menu-3.jpg" alt="">
+            <h3>latte</h3>
+            <div class="price">₹ 180.00 <span>₹ 200.00</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <img src="menu-4.jpg" alt="">
+            <h3>cold brew</h3>
+            <div class="price">₹ 100.00 <span>₹ 120.00</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <img src="menu-5.jpg" alt="">
+            <h3>espresso</h3>
+            <div class="price">₹ 80.00 <span>₹ 100.00</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <img src="menu-6.jpg" alt="">
+            <h3>cappuccino</h3>
+            <div class="price">₹ 130.00 <span>₹ 250.00</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+</section>
+<section class="products" id="products">
+    <h1 class="heading">our <span>products</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="product-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Vanilla</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">₹ 370.00 <span>₹ 400.00</span></div>
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="product-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>cacao</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">₹ 400.00 <span>₹ 450.00</span></div>
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="product-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>hazelnut</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">₹ 380.00 <span>₹ 410.00</span></div>
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="review" id="review">
+    <h1 class="heading">customer's <span>review</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="" alt="" class="quote">
+            <p><i>I've tried many brands, but this coffee truly stands out. This has become my go-to morning brew. The flavor is exceptional, and the freshness is unmatched. Highly recommend!</i></p>
+            <img src="pic-1.jpg" class="user" alt="">
+            <h3>Priya</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="" alt="" class="quote">
+            <p><i>The Fresh Coffee has a perfect balance of smoothness and richness. It's my afternoon pick-me-up, and it never disappoints. The aroma fills the room, and the taste lingers beautifully.</i></p>
+            <img src="pic-2.jpg" class="user" alt="">
+            <h3>Surya</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="" alt="" class="quote">
+            <p><i>I love the products of Coffee co! It has a unique flavor that I've never found in other coffees. It's smooth, with just the right hint of spice. Plus, the packaging is great for keeping it fresh. Great value for money!</i></p>
+            <img src="pic-3.jpg" class="user" alt="">
+            <h3>Meghna</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contact" id="contact">
+    <h1 class="heading"><span>contact </span>us</h1>
+    <div class="row">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15698.973115539206!2d77.95915814001262!3d10.362400144045278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00aa57a54881e3%3A0x765a14068982e6e7!2sDindigul%2C%20Tamil%20Nadu%20624001!5e0!3m2!1sen!2sin!4v1724760844019!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form action="">
+             <h3>get in touch</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="name">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="number">
+            </div>
+            <input type="submit" value="contact now" class="btn" >
+        </form>
+    </div>
+</section>
+<section class="blogs" id="blogs">
+    <h1 class="heading"> our <span>blogs</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="blog-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">tasty and refreshing coffee</a>
+                <span>by admin / 21st may, 2023</span>
+                <p>Discover the unique flavors and stories behind single-origin coffee beans from around the globe.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="blog-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">the art of brewing</a>
+                <span>by admin / 1st November, 2023</span>
+                <p>Master the brewing techniques to elevate your coffee experience with these simple, expert tips.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="blog-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">sustainability in coffee</a>
+                <span>by admin / 21st August, 2024</span>
+                <p>Learn how sustainable practices in coffee farming benefit the environment and your daily cup.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+    <div class="links">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+        <a href="#blogs">blogs</a>
+    </div>
+    <div class="credit">created by<span> Miss.Madhumitha Manivel </span> | all rights reserved | </div>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
